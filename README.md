@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# SiteGram
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SiteGram is a social platform project inspired by Instagram. It provides a platform for users to share photos, connect with friends, and explore a visual feed of content.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Features](#features)
+- [Usage](#usage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### 1. User Authentication
+SiteGram implements secure user authentication to ensure a personalized experience for each user.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 2. Profile Management
+Users can create and manage their profiles, including updating profile pictures, bios, and other information.
 
-- Configure the top-level `parserOptions` property like this:
+### 3. Photo Sharing
+SiteGram allows users to upload and share photos with their followers.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### 4. Feed Exploration
+Users can explore a visual feed of content, including posts from their followers and popular content on the platform.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 5. Likes and Saved Posts
+Users can engage with content by liking photos, and save posts for later viewing.
+
+### 6. Direct Messaging
+SiteGram includes a direct messaging feature for private communication between users.
+
+
+## Usage
+
+1. Register for a new account or log in with existing credentials.
+2. Explore the platform by viewing the feed, searching for users, and engaging with content.
+3. Share your own photos and updates with followers.
+4. Connect with friends and build your social network.
+
