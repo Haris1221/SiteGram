@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react'
+import {useCallback, useState} from 'react'
 import {FileWithPath, useDropzone} from 'react-dropzone'
 import { Button } from '../ui/button'
 
@@ -25,7 +25,7 @@ const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
             'image/*': ['.png', 'jpeg', '.jpg', '.svg']
         }
     })
-  return (
+    return (
     <div {...getRootProps()} className='flex flex-center flex-col bg-dark-3 rounderd-xl cursor-pointer'>
         <input {...getInputProps()} className='cursor-pointer' />
         {
@@ -48,7 +48,7 @@ const FileUploader = ({ fieldChange, mediaUrl }: FileUploaderProps) => {
             )
         }
     </div>
-  )
+    )
 }
 
 export default FileUploader
